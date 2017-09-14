@@ -11,9 +11,9 @@ function subtract(){
 }
 
 function multiply(){
-	//Implement this
-	
-	
+	var x1 = parseInt(document.getElementById("input1").value);
+	var x2 = parseInt(document.getElementById("input2").value);	
+	alert("Result= " + (x1*x2).toString());
 }
 
 function divide(){
