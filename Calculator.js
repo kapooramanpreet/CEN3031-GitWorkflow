@@ -24,4 +24,7 @@ function divide(){
 	
 	
 }
-		
+
+function sample(){
+
+}
