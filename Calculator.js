@@ -9,7 +9,7 @@ function subtract(){
 	var v1=parseInt(document.getElementById("input1").value);
 	var v2=parseInt(document.getElementById("input2").value);
 	alert("Result= " + (v1-v2).toString());
-
+	//test
 }
 
 function multiply(){
@@ -20,7 +20,9 @@ function multiply(){
 
 function divide(){
 	//Implement this
-
+	var v1=parseInt(document.getElementById("input1").value);
+	var v2=parseInt(document.getElementById("input2").value);
+	alert("Result= " + (v1/v2).toString());
 	
 	
 }
