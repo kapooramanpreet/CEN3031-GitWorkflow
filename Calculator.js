@@ -17,9 +17,9 @@ function multiply(){
 }
 
 function divide(){
-	//Implement this
-	
-	
-	
+	var num=parseInt(document.getElementById("input1").value);
+	var den=parseInt(document.getElementById("input2").value);
+	alert("Result= " + (num/den).toString());
 }
+
 		
