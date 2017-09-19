@@ -6,10 +6,8 @@ function add(){
 
 function subtract(){
 	var v1 = parseInt(document.getElementById("input1").value);
-	var v2 = parseInt(document.getElementbyId("input2").value);
+	var v2 = parseInt(document.getElementById("input2").value);
 	alert("Results= " + (v1-v2).toString());
-
-
 }
 
 function multiply(){
