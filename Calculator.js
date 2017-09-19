@@ -28,3 +28,8 @@ function divide(){
 function sample(){
 
 }
+
+function love(){
+	// implemented soon
+	// with care
+}
