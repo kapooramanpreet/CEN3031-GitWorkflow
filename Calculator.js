@@ -6,19 +6,25 @@ function add(){
 
 function subtract(){
 	//Implement this
-	
+
 	
 }
 
 function multiply(){
 	//Implement this
-	
+
 	
 }
 
 function divide(){
 	//Implement this
-	
+	var v1=parseInt(document.getElementById("input1").value);
+	var v2=parseInt(document.getElementById("input2").value);
+	if(v2 != 0) {
+		alert("Result= " + (v1/v2).toString());
+	} else {
+		alert("Error: divide by 0!");
+	}
 	
 	
 }
